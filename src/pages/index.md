@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/hero.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: NVST Academy
+subheading: Master the markets
 mainpitch:
   title: Why Kaldi
   description: >

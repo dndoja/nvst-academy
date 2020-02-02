@@ -1,14 +1,18 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap')
 
+$montserrat: 'Montserrat', sans-serif
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
+$primary: #A7E0E1
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$link: #c0c0c0
+$accent: #E1FFFF
 
 .content .taglist
   list-style: none
@@ -25,7 +29,6 @@ $black: #2b2523
     margin-bottom: 1.5rem
     margin-top: 0
 
-// Helper Classes
 .full-width-image-container
   width: 100vw
   height: 400px
@@ -50,23 +53,31 @@ $black: #2b2523
 
 .btn
     display: inline-block
-    padding: 12px 16px 10px
+    padding: 16px 64px 16px
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
+    background-color: transparent
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $primary
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 3px $primary
+    box-shadow: inset 0 0 0 3px $primary
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
+.btn:hover
+  color: $accent
+  text-align: center
+  -webkit-box-shadow: inset 0 0 0 3px $accent
+  box-shadow: inset 0 0 0 3px $accent
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
+
 .margin-top-0
   margin-top: 0 !important
+
 
 .navbar-item .icon
   color: $primary
@@ -76,6 +87,7 @@ $black: #2b2523
   height: 1.5rem
   fill: currentColor
 .navbar-brand .navbar-item.logo
+  max-height: 3rem
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
@@ -122,6 +134,62 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+.navigation-container
+  padding-top: 2rem
+  width: 100%
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+.navbar-link.is-active
+    background-color: transparent
+    color: transparent
+
+a.navbar-item:hover
+  background-color: transparent
+
+.navbar-item
+  color: white
+  font-family: $montserrat
+
+.navbar-item .img
+  max-height: 3rem
+
+.navbar.is-fixed-top
+    background-color: transparent
+
+.title
+  font-family: $montserrat
+  color: $primary
+  font-size: 3rem
+
+.subtitle
+  font-size: 1.8rem
+  font-family: $montserrat
+  color: white
+
+.description
+  color: white
+  font-family: $montserrat
+  line-height: 2.2
+  margin-top: 10vh
+  margin-bottom: 10vh
+
+.hero
+  background-color: transparent
+  min-height: 100vh
+  justify-content: space-between
+  padding-left: 10vw
+  padding-right: 10vw
+
+.hero-subcontainer
+  max-width: 30%
+
+.navbar-burger
+    color: white
+
+.navbar-menu.is-active
+  background-color: black
 
 // responsiveness
 +tablet-only
@@ -135,3 +203,5 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+  .hero-subcontainer
+    max-width: 100%

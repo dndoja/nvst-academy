@@ -5,6 +5,8 @@ import {Link, graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import logo from "../img/logo.svg";
+import Navbar from "../components/Navbar";
 
 export const IndexPageTemplate = ({
                                       image,
@@ -20,41 +22,33 @@ export const IndexPageTemplate = ({
             backgroundImage: `url(${
                 !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             })`,
+            backgroundSize: 'cover',
             backgroundPosition: `top left`
         }}
         >
-            <div className="hero-head">
-                <div className="container">
-                    <div className="tabs is-centered">
-                        <ul>
-                            <li><a>This is always at the top</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div className={"navigation-container"}>
+                <Link to="/" className="" title="Logo" style={{width:'100px'}}>
+                    <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+                </Link>
+                <Navbar/>
             </div>
+            <div className={"hero-subcontainer"}>
+                <h2 className="subtitle" style={{marginBottom:'2rem'}}>
+                    {subheading}
+                </h2>
+                <h1 className="title">
+                    {heading}
+                </h1>
 
-            <div className="hero-body">
-                <div className="container">
-                    <header className="bd-index-header">
-                        <h1 className="title">
-                            {heading}
-                        </h1>
-                        <h2 className="subtitle">
-                            {subheading}
-                        </h2>
-                    </header>
-                </div>
-            </div>
+                <p className={"description"}>
+                    {description}
+                </p>
 
-            <div className="hero-foot">
-                <div className="container">
-                    <div className="tabs is-centered">
-                        <ul>
-                            <li><a>And this at the bottom</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <Link className="btn" to="/products">
+                    GET STARTED
+                </Link>
             </div>
+            <div/>
         </section>
         <section className="section section--gradient">
             <div className="container">
@@ -64,10 +58,10 @@ export const IndexPageTemplate = ({
                             <div className="content">
                                 <div className="content">
                                     <div className="tile">
-                                        <h1 className="title">{mainpitch.title}</h1>
+                                        <h3 className="subtitle">{mainpitch.description}</h3>
                                     </div>
                                     <div className="tile">
-                                        <h3 className="subtitle">{mainpitch.description}</h3>
+                                        <h1 className="title">{mainpitch.title}</h1>
                                     </div>
                                 </div>
                                 <div className="columns">
