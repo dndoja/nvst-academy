@@ -7,13 +7,14 @@ $montserrat: 'Montserrat', sans-serif
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
-$primary: #A7E0E1
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$light: #A7E0E1
 $link: #c0c0c0
 $accent: #E1FFFF
 $dark: #001520
+$primary: #154C57
 
 .content .taglist
   list-style: none
@@ -64,10 +65,10 @@ $dark: #001520
     background-color: transparent
     text-decoration: none
     font-weight: 700
-    color: $primary
+    color: $light
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 3px $primary
-    box-shadow: inset 0 0 0 3px $primary
+    -webkit-box-shadow: inset 0 0 0 3px $light
+    box-shadow: inset 0 0 0 3px $light
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -79,12 +80,33 @@ $dark: #001520
   -webkit-transition: all .15s ease
   transition: all .15s ease
 
+.form-container
+  min-width: 250px
+  width: 25%
+  height: 100%
+
+.button
+  width: 100%
+  display: inline-block
+  font-size: 18px
+  font-size: 1rem
+  line-height: 1.25
+  background-color: transparent
+  text-decoration: none
+  font-weight: 700
+  color: $light
+  text-align: center
+  -webkit-box-shadow: inset 0 0 0 3px $light
+  box-shadow: inset 0 0 0 3px $light
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
+
 .margin-top-0
   margin-top: 0 !important
 
 
 .navbar-item .icon
-  color: $primary
+  color: $light
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -180,8 +202,20 @@ a.navbar-item:hover
 
 .title
   font-family: $montserrat
+  color: $light
+  font-size: 3rem
+.title-primary
+  font-family: $montserrat
   color: $primary
   font-size: 3rem
+
+.fullscreen-container
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    height: 85vh
+    width: 100%
 
 .subtitle
   font-size: 1.8rem
@@ -211,6 +245,8 @@ a.navbar-item:hover
 .navbar-menu.is-active
   background-color: black
 
+.footer
+  background-color: $dark !important
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail

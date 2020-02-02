@@ -5,10 +5,12 @@ import BlogRoll from '../../components/BlogRoll'
 import Navbar from "../../components/Navbar";
 import {Link} from "gatsby";
 import logo from "../../img/logo.svg";
-
+import {isRegistered} from "../../cookie";
+import { Redirect } from '@reach/router'
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
+         !isRegistered() ? <Redirect to={'/contact'} noThrow/> :
       <Layout>
           <div>
             <div

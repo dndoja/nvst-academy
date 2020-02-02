@@ -1,6 +1,10 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import {Link} from "gatsby";
+import logo from "../../img/logo.svg";
+import Navbar from "../../components/Navbar";
+import {register} from "../../cookie";
 
 function encode(data) {
   return Object.keys(data)
@@ -30,20 +34,29 @@ export default class Index extends React.Component {
       }),
     })
       .then(() => navigate(form.getAttribute('action')))
+      .then(() => register())
       .catch(error => alert(error))
   }
 
   render() {
     return (
-      <Layout>
+      <div>
+          <div className={"navigation-container-floating"}>
+              <Link to="/" className="" title="Logo" style={{width:'100px'}}>
+                  <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              </Link>
+              <Navbar/>
+          </div>
         <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1>Contact</h1>
+          <div className="fullscreen-container">
+            <div style={{display:'flex',alignItems:'center',flexDirection:'column'}}>
+              <p className={"title-primary"} style={{marginBottom:'5vh', textAlign:'center'}}>Get your free courses!</p>
+            <div className="content is-centered">
               <form
                 name="contact"
                 method="post"
-                action="/contact/thanks/"
+                action="/blog"
+                className={"form-container"}
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
@@ -87,29 +100,30 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={'message'}>
-                    Message
+                  <label className="label" htmlFor={'phoneNumber'}>
+                    Phone number
                   </label>
                   <div className="control">
-                    <textarea
-                      className="textarea"
-                      name={'message'}
+                    <input
+                      className="input"
+                      name={'phoneNumber'}
                       onChange={this.handleChange}
-                      id={'message'}
+                      id={'phoneNumber'}
                       required={true}
                     />
                   </div>
                 </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
-                    Send
+                <div className="field" style={{marginTop:'3rem'}}>
+                  <button className={"button is-primary"} type="submit">
+                      Register
                   </button>
                 </div>
               </form>
             </div>
+            </div>
           </div>
         </section>
-      </Layout>
+      </div>
     )
   }
 }
