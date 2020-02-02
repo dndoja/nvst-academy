@@ -13,6 +13,7 @@ $body-color: #333
 $black: #2b2523
 $link: #c0c0c0
 $accent: #E1FFFF
+$dark: #001520
 
 .content .taglist
   list-style: none
@@ -31,8 +32,9 @@ $accent: #E1FFFF
 
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: calc(400px + 3.5rem)
   position: relative
+  padding-top: 3.5rem
   left: 50%
   right: 50%
   margin: 2em -50vw
@@ -41,10 +43,12 @@ $accent: #E1FFFF
   display: flex
   justify-content: center
   align-items: center
+  padding-left: 10vw
+  padding-right: 10vw
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: calc(400px + 3.5rem)
     background-size: cover
     background-position: bottom
     display: flex
@@ -134,12 +138,28 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+.navbar
+  background-color: transparent
+
 .navigation-container
   padding-top: 2rem
   width: 100%
   display: flex
   flex-direction: row
   justify-content: space-between
+
+.navigation-container-floating
+  width: 100%
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  position: fixed
+  top: 0
+  background-color: $dark
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2)
+  padding: 5px 10vw
+  z-index: 1000
+  opacity: 90%
 
 .navbar-link.is-active
     background-color: transparent
