@@ -8,6 +8,20 @@ import logo from "../img/logo.svg";
 import Navbar from "../components/Navbar";
 import BlogRoll from "../components/BlogRoll";
 
+function getTitleForTag(tag) {
+    switch (tag) {
+        case 'crypto':
+            return 'Cryptocurrency'
+        case 'basics':
+            return 'Basics'
+        case 'forex':
+            return 'Forex'
+        case 'signals':
+            return 'Trading signals'
+        default:
+            return ''
+    }
+}
 class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
@@ -19,36 +33,22 @@ class TagRoute extends React.Component {
       </li>
     ))
     const tag = this.props.pageContext.tag
-    const title = this.props.data.site.siteMetadata.title
-    const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `${totalCount} post${
-      totalCount === 1 ? '' : 's'
-    } tagged with “${tag}”`
+    const title = getTitleForTag(tag)
 
-      console.log(this.props)
     return (
         !isRegistered() ? <Redirect to={'/contact'} noThrow/> :
             <Layout>
-              <div>
-                <div
-                    className="full-width-image-container margin-top-0"
-                    style={{
-                      backgroundImage: `url('/img/${tag}.jpg')`,
-                    }}
-                >
-                  <div className={"navigation-container-floating"}>
+                <div className={"navigation-container-floating"}>
                     <Link to="/" className="" title="Logo" style={{width:'100px'}}>
-                      <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+                        <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
                     </Link>
                     <Navbar/>
-                  </div>
-                  <div/>
                 </div>
-              </div>
-              <section className="section">
+              <section className="section" style={{marginTop:'6vh'}}>
                 <div className="container">
                   <div className="content">
-                    <BlogRoll data={this.props}/>
+                      <h1 className="title">{title}</h1>
+                          <BlogRoll data={this.props}/>
                   </div>
                 </div>
               </section>

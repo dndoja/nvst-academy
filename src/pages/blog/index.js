@@ -12,6 +12,8 @@ class BlogIndexPage extends React.Component {
   render() {
       const data = this.props;
       console.log(data);
+      const title = this.props.data.site.siteMetadata.title
+      console.log(title)
       return (
      !isRegistered() ? <Redirect to={'/contact'} noThrow/> :
       <Layout>
@@ -26,6 +28,7 @@ class BlogIndexPage extends React.Component {
                     <Link to="/" className="" title="Logo" style={{width:'100px'}}>
                         <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
                     </Link>
+
                     <Navbar/>
                 </div>
                 <h1 className="title">Latest ghaa
