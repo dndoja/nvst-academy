@@ -12,8 +12,6 @@ class BlogIndexPage extends React.Component {
   render() {
       const data = this.props;
       console.log(data);
-      const title = this.props.data.site.siteMetadata.title
-      console.log(title)
       return (
      !isRegistered() ? <Redirect to={'/contact'} noThrow/> :
       <Layout>
