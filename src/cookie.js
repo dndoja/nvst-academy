@@ -7,7 +7,5 @@ export const register = () => {
 };
 
 export const isRegistered = () => {
-    const cookie = cookies.get("nvst_registered");
-
-    return cookie
+    return cookies.get("nvst_registered")
 };

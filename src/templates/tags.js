@@ -2,6 +2,11 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import {isRegistered} from "../cookie";
+import {Redirect} from "@reach/router";
+import logo from "../img/logo.svg";
+import Navbar from "../components/Navbar";
+import BlogRoll from "../components/BlogRoll";
 
 class TagRoute extends React.Component {
   render() {
@@ -20,26 +25,36 @@ class TagRoute extends React.Component {
       totalCount === 1 ? '' : 's'
     } tagged with “${tag}”`
 
+      console.log(this.props)
     return (
-      <Layout>
-        <section className="section">
-          <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
-            <div className="columns">
-              <div
-                className="column is-10 is-offset-1"
-                style={{ marginBottom: '6rem' }}
-              >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
-                <p>
-                  <Link to="/tags/">Browse all tags</Link>
-                </p>
+        !isRegistered() ? <Redirect to={'/contact'} noThrow/> :
+            <Layout>
+              <div>
+                <div
+                    className="full-width-image-container margin-top-0"
+                    style={{
+                      backgroundImage: `url('/img/${tag}.jpg')`,
+                    }}
+                >
+                  <div className={"navigation-container-floating"}>
+                    <Link to="/" className="" title="Logo" style={{width:'100px'}}>
+                      <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+                    </Link>
+                    <Navbar/>
+                  </div>
+                  <h1 className="title">Latest ghaa
+                  </h1>
+                  <div/>
+                </div>
               </div>
-            </div>
-          </div>
-        </section>
-      </Layout>
+              <section className="section">
+                <div className="container">
+                  <div className="content">
+                    <BlogRoll data={this.props}/>
+                  </div>
+                </div>
+              </section>
+            </Layout>
     )
   }
 }
@@ -60,15 +75,28 @@ export const tagPageQuery = graphql`
     ) {
       totalCount
       edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
+            node {
+              excerpt(pruneLength: 400)
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                featuredpost
+                tags
+                featuredimage {
+                  childImageSharp {
+                    fluid(maxWidth: 120, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
-    }
-  }
 `

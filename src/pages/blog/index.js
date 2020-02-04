@@ -3,14 +3,17 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 import Navbar from "../../components/Navbar";
-import {Link} from "gatsby";
+import {graphql, Link, StaticQuery} from "gatsby";
 import logo from "../../img/logo.svg";
 import {isRegistered} from "../../cookie";
 import { Redirect } from '@reach/router'
-export default class BlogIndexPage extends React.Component {
+import PropTypes from "prop-types";
+class BlogIndexPage extends React.Component {
   render() {
-    return (
-         !isRegistered() ? <Redirect to={'/contact'} noThrow/> :
+      const data = this.props;
+      console.log(data);
+      return (
+     !isRegistered() ? <Redirect to={'/contact'} noThrow/> :
       <Layout>
           <div>
             <div
@@ -33,7 +36,7 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <BlogRoll data={data}/>
             </div>
           </div>
         </section>
@@ -41,3 +44,50 @@ export default class BlogIndexPage extends React.Component {
     )
   }
 }
+
+BlogIndexPage.propTypes = {
+    data: PropTypes.shape({
+        allMarkdownRemark: PropTypes.shape({
+            edges: PropTypes.array,
+        }),
+    }),
+}
+
+export default () => (
+    <StaticQuery
+        query={graphql`
+      query BlogRollQuery {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: {eq: "blog-post"} } } 
+        ) {
+          edges {
+            node {
+              excerpt(pruneLength: 400)
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                featuredpost
+                tags
+                featuredimage {
+                  childImageSharp {
+                    fluid(maxWidth: 120, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    `}
+        render={(data) => <BlogIndexPage data={data}/>}
+    />
+
+    )
