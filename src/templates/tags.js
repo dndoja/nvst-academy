@@ -42,8 +42,6 @@ class TagRoute extends React.Component {
                     </Link>
                     <Navbar/>
                   </div>
-                  <h1 className="title">Latest ghaa
-                  </h1>
                   <div/>
                 </div>
               </div>
