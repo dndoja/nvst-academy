@@ -19,7 +19,6 @@ export const IndexPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
 }) => (
     <div>
 
@@ -98,21 +97,6 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
               <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
             </div>
           </div>
         </div>
@@ -140,11 +124,6 @@ IndexPageTemplate.propTypes = {
   }),
   testimonials: PropTypes.array,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
 }
 
 const IndexPage = ({ data }) => {
@@ -162,7 +141,6 @@ const IndexPage = ({ data }) => {
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   )
@@ -252,16 +230,7 @@ export const indexPageQuery = graphql`
             }
           }
         }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
-          }
-        }
+       
       }
     }
   }
