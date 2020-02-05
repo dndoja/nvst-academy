@@ -169,7 +169,6 @@ export const indexPageQuery = graphql`
           }
         }
         heading
-        subheading
         description
         intro {
           blurbs {
