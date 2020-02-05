@@ -38,12 +38,15 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Professional knowledge with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Only the best information with no compromises
+  description: >-
+    We take pride in providing our readers with the most accurate and well
+    researched articles. We value the quality of our content as it is the most
+    important attribute that separates us from our competitors. Our experts are
+    among the best of their respective fields but above all they are passionate
+    about helping our clients reach their goals. Armed with the knowledge we
+    provide you, you will be able to become proficient in trading and investing
+    in no time.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -56,12 +59,14 @@ main:
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
+      I have made some amazing progress the past year. I went from not knowing
+      what a stock was, to having a diverse portfolio that now provides me with
+      a passive income bigger than my salary.
   - author: Philipp Trommler
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      I had been trading on my own for more than 3 years, but with not much
+      success. Dr. Giovanna helped me refine my trading strategy and I have been
+      in the green ever since.
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
