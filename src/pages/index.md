@@ -1,10 +1,8 @@
 ---
-templateKey: 'index-page'
-path: /
+templateKey: index-page
 title: Our Coffee
 image: /img/hero.jpg
 heading: NVST Academy
-subheading: Master the markets
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -12,33 +10,27 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/basics.jpg
+      text: >-
+        We will help you start from scratch. Teach you everything there is to
+        know about investing and trading. You will start off with the right
+        knowledge to help you assess risk and predict the markets.
+    - image: /img/crypto.jpg
+      text: >-
+        We have a special team of cryptocurrency experts that will provide you
+        with insider knowledge in the cryptocurrency world, teach you how to
+        navigate the market of this wild kind of asset and help you avoid some
+        of the pitfalls that come with investing in it.
+    - image: /img/forex.jpg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        If you enjoy high risk high reward trading, forex is right down your
+        alley. With our advanced technical analysis techniques and our community
+        of traders we will help set you up for success!
+    - image: /img/signals.jpg
+      text: >-
+        If you are a busy individual that doesn't have a lot of time to study
+        the markets by himself, then you can rely on us to do the hard work for
+        you and provide you with the most accurate and low risk trading signals.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -46,12 +38,15 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Only the best information with no compromises
+  description: >-
+    We take pride in providing our readers with the most accurate and well
+    researched articles. We value the quality of our content as it is the most
+    important attribute that separates us from our competitors. Our experts are
+    among the best of their respective fields but above all they are passionate
+    about helping our clients reach their goals. Armed with the knowledge we
+    provide you, you will be able to become proficient in trading and investing
+    in no time.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -64,12 +59,14 @@ main:
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
+      I have made some amazing progress the past year. I went from not knowing
+      what a stock was, to having a diverse portfolio that now provides me with
+      a passive income bigger than my salary.
   - author: Philipp Trommler
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      I had been trading on my own for more than 3 years, but with not much
+      success. Dr. Giovanna helped me refine my trading strategy and I have been
+      in the green ever since.
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
@@ -100,3 +97,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
