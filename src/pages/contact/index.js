@@ -55,7 +55,7 @@ export default class Index extends React.Component {
               <form
                 name="contact"
                 method="post"
-                action="/blog"
+                action="/articles/basics"
                 className={"form-container"}
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
