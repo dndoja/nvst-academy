@@ -14,6 +14,7 @@ featuredpost: true
 featuredimage: /img/Bitcoin-chart-710x458.jpg
 tags:
   - crypto
+  - basics
 ---
 <!--StartFragment-->
 
