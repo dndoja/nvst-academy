@@ -13,7 +13,7 @@ featuredpost: true
 featuredimage: /img/Overview-Forex-min.jpg
 tags:
   - basics
-  - crypto
+  - forex
 ---
 The foreign exchange market is where currencies are traded. Currencies are important to most people around the world, whether they realize it or not, because currencies need to be exchanged in order to conduct foreign trade and business. If you are living in the U.S. and want to buy cheese from France, either you or the company that you buy the cheese from has to pay the French for the cheese in euros (EUR). This means that the U.S. importer would have to exchange the equivalent value of U.S. dollars (USD) into euros. The same goes for traveling. A French tourist in Egypt can't pay in euros to see the pyramids because it's not the locally accepted currency. As such, the tourist has to exchange the euros for the local currency, in this case the Egyptian pound, at the current exchange rate.
 
