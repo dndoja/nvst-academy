@@ -44,7 +44,7 @@ class TagRoute extends React.Component {
                     </Link>
                     <Navbar/>
                 </div>
-              <section className="section" style={{marginTop:'6vh'}}>
+              <section className="section" style={{marginTop:'6vh',minHeight: 'calc(94vh - 6rem - 10em)'}}>
                 <div className="container">
                   <div className="content">
                       <h1 className="title">{title}</h1>
