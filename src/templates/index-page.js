@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({
                     {description}
                 </p>
 
-                <Link className="btn" to="/blog">
+                <Link className="btn" to="/articles/basics">
                     GET STARTED
                 </Link>
             </div>
