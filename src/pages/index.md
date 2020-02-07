@@ -2,12 +2,11 @@
 templateKey: index-page
 title: NVST Academy
 image: /img/hero.jpg
-heading: NVST Academy
+heading: What we offer
 description: >-
-  NVST is a community of financial experts that are passionate about helping
-  other people become proficient in the investing world. We offer insightful
-  articles and guides that will help you become a more effective investor /
-  business person.
+  No matter if you are a beginner or an expert investor, you will most
+  definitely find something within our library of content that will help improve
+  your investing strategies.
 intro:
   blurbs:
     - image: /img/basics.jpg
