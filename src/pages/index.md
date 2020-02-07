@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Our Coffee
+title: NVST Academy
 image: /img/hero.jpg
 heading: NVST Academy
 description: >-
@@ -48,14 +48,14 @@ main:
     provide you, you will be able to become proficient in trading and investing
     in no time.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: Forex
+    image: /img/Overview-Forex-min.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Cryptocurrency
+    image: /img/Bitcoin-chart-710x458.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Stock exchange
+    image: /img/bursa.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
@@ -67,7 +67,7 @@ testimonials:
       I had been trading on my own for more than 3 years, but with not much
       success. Dr. Giovanna helped me refine my trading strategy and I have been
       in the green ever since.
-full_image: /img/products-full-width.jpg
+full_image: /img/learning.jpg
 pricing:
   heading: Monthly subscriptions
   description: >-
