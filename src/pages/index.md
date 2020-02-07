@@ -4,10 +4,10 @@ title: NVST Academy
 image: /img/hero.jpg
 heading: NVST Academy
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  NVST is a community of financial experts that are passionate about helping
+  other people become proficient in the investing world. We offer insightful
+  articles and guides that will help you become a more effective investor /
+  business person.
 intro:
   blurbs:
     - image: /img/basics.jpg
