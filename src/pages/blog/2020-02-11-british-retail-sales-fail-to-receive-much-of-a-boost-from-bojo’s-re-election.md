@@ -8,7 +8,7 @@ description: >
   over worries about a Britain-EU trade deal. At the time of writing, GBP/USD is
   trading at around 1.291.
 featuredpost: true
-featuredimage: /img/oil.jpg
+featuredimage: /img/gbp-usd.jpg
 tags:
   - signals
 ---
