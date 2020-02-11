@@ -18,6 +18,7 @@ featuredpost: true
 featuredimage: /img/usa.jpg
 tags:
   - signals
+  - forex
 ---
 ![Powell in Focus](https://fxlmwpmedia.s3.amazonaws.com/wp-content/uploads/2020/02/11000728/Powell-852x485.png)
 
