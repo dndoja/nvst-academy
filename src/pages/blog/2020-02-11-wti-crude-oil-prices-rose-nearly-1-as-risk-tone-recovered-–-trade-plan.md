@@ -7,6 +7,7 @@ featuredpost: true
 featuredimage: /img/Bitcoin-chart-710x458.jpg
 tags:
   - signals
+  - crypto
 ---
 ![](https://fxlmwpmedia.s3.amazonaws.com/wp-content/uploads/2020/02/11051839/mm2pj31kk-852x485.jpg)
 
