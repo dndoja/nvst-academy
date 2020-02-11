@@ -1,19 +1,19 @@
 ---
 templateKey: blog-post
-title: Gold Dips Slightly After Soaring to Weekly High
+title: 'GBP/USD Steadies, Holds Gains From Monday After Last Week''s Weakness'
 date: 2020-02-11T07:06:58.565Z
-description: >-
-  Gold prices are trading slightly weaker early on Tuesday after soaring to a
-  one-week high during the previous session as the safe haven appeal remained in
-  focus over rising fears of the coronavirus outbreak’s impact on economic
-  growth. At the time of writing GOLD is trading at a little above $1,568.
+description: >
+  The Pound is trading somewhat steady against the US dollar, holding on to its
+  slight gains from Monday after trading weak for most part of the previous week
+  over worries about a Britain-EU trade deal. At the time of writing, GBP/USD is
+  trading at around 1.291.
 featuredpost: true
 featuredimage: /img/oil.jpg
 tags:
   - signals
 ---
-![Gold Dips Slightly After Soaring to Weekly High](https://fxlmwpmedia.s3.amazonaws.com/wp-content/uploads/2020/02/11035102/XAUUSD-11-02-2020-852x485.png)
+![](https://fxlmwpmedia.s3.amazonaws.com/wp-content/uploads/2020/02/11060623/GBPUSD-11-02-2020-852x485.png)
 
-However, [gold is trading in a bit of a range](https://www.fxleaders.com/news/2020/02/10/gold-trades-bullish-but-under-pressure-due-to-a-strong-us-dollar/) because of the strengthening in the US dollar, which shares a negative correlation with the precious metal. Meanwhile, rallies in gold prices remain contained as traders indulge in profit taking.
+GBP/USD experienced its most severe decline in seven weeks, losing around 2.4% of its value over last week as markets worried about the possibility of a no-deal Brexit at the end of the transition period on December 31, 2020. [Hard stands being taken by both the EU](https://www.bloomberg.com/news/articles/2020-02-10/eu-toughens-negotiating-demands-before-brexit-trade-talks-start) as well as Britain as they headed into negotiations once again brought back concerns that the two regions may not be able to finalize a free trade deal within the next few months.
 
-Markets are trading cautious as [China reopens some of its factories](https://www.baltimoresun.com/news/nation-world/ct-nw-china-coronavirus-outbreak-20200210-lly57tsohrdsdlbqt4bw7viuri-story.html) and tries to bounce back to business as usual after remaining shut for an extended period of time in a bid to contain the spread of the virus. Gold is also trading cautious ahead of the Fed chairman’s testimony as markets look for clues about the US central bank’s outlook regarding the coronavirus outbreak and its economic impact.
+Later today, GBP/USD could see some movement on the [release of UK’s GDP data](https://www.fxleaders.com/economic-calendar/gdp-qoq-uk), but most of the sentiment in the coming weeks will be dictated by the [progress in trade talks](https://www.huffingtonpost.co.uk/entry/boris-johnson-brexit-trade-deal-academics-survey_uk_5e402fbcc5b6bb0ffc12d2b0). GBP/USD has also been trading weaker lately as the US dollar gains strength as a safe haven currency due to markets’ worries about the coronavirus outbreak and its impact on economic growth, both in China as well as on a global level.
