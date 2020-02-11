@@ -1,87 +1,56 @@
 ---
 templateKey: blog-post
-title: What are Futures
-date: 2019-07-27T11:00:04.061Z
+title: What is Options Trading
+date: 2019-07-29T11:00:04.061Z
 description: >-
-  Futures are derivative financial contracts that obligate the parties to
-  transact an asset at a predetermined future date and price. Here, the buyer
-  must purchase or the seller must sell the underlying asset at the set price,
-  regardless of the current market price at the expiration date.
-
-  Underlying assets include physical commodities or other financial instruments.
-  Futures contracts detail the quantity of the underlying asset and are
-  standardized to facilitate trading on a futures exchange. Futures can be used
-  for hedging or trade speculation.
+  Trading options is very different from trading stocks because options have
+  distinct characteristics from stocks. It's important for traders to take the
+  time to understand the terminology and concepts involved with options before
+  trading them.
 featuredpost: true
 featuredimage: /img/futures.jpg
 tags:
   - basics
 ---
-### Key Takeaways 
+## Options 101 
 
-* Futures are financial contracts obligating the buyer to purchase an asset or the seller to sell an asset and have a predetermined future date and price.
-* A futures contract allows an investor to speculate on the direction of a security, commodity, or a financial instrument.
-* Futures are used to hedge the price movement of the underlying asset to help prevent losses from unfavorable price changes.
+Trading stocks can be compared to gambling in a casino: You're betting against the house, so if all the customers have an incredible string of luck, they could all win.
 
-##  Futures Explained 
+Trading options is more like betting on horses at the racetrack: Each person bets against all the other people there. The track simply takes a small cut for providing the facilities. So, trading options, like betting at the horse track, is a zero-sum game. The option buyer's gain is the option seller's loss and vice versa.
 
-Futures—also called futures contracts—allow traders to lock in a price of the underlying asset or commodity. These contracts have expirations dates and set prices that are known up front. Futures are identified by their expiration month. For example, a December gold futures contract expires in December. The term futures tend to represent the overall market. However, there are many types of futures contracts available for trading including:
+One important difference between stocks and options is that stocks give you a small piece of ownership in a company, while options are just contracts that give you the right to buy or sell the stock at a specific price by a specific date.
 
-* Commodity futures such as in crude oil, natural gas, corn, and wheat
-* Stock index futures such as the S&P 500 Index
-* Currency futures including those for the euro and the British pound
-* Precious metal futures for gold and silver
-* U.S. Treasury futures for bonds and other products
-
-It's important to note the [distinction between options and futures](https://www.investopedia.com/ask/answers/difference-between-options-and-futures/). Options contracts give the holder the right to buy or sell the [underlying asset](https://www.investopedia.com/terms/u/underlying-asset.asp) at expiration, while the holder of a futures contract is obligated to fulfill the terms of the contract.
-
-#### Pros
-
-* Investors can use futures contracts to speculate on the direction in the price of an underlying asset
-
-* Companies can hedge the price of their raw materials or products they sell to protect from adverse price movements
-
-* Futures contracts may only require a deposit of a fraction of the contract amount with a broker
-
-#### Cons
-
-* Investors have a risk that they can lose more than the initial margin amount since futures use leverage
-
-* Investing in a futures contract might cause a company that hedged to miss out on favorable price movements
-
-* Margin can be a double-edged sword meaning gains are amplified but so too are losses
+It's important to remember that there are always two sides for every option transaction: a buyer and a seller. In other words, for every option purchased there's always someone else selling it.
 
 
-##  Using Futures 
+##  Option Types and Styles 
 
-The futures markets typically use high [leverage](https://www.investopedia.com/terms/l/leverage.asp). Leverage means that the trader does not need to put up 100% of the contract's value amount when entering into a trade. Instead, the broker would require an [initial margin amount](https://www.investopedia.com/terms/i/initialmargin.asp), which consists of a fraction of the total contract value. The amount held by the broker can vary depending on the size of the contract, the creditworthiness of the investor, and the broker's terms and conditions.
+The two types of options are calls and puts. When you buy a call option, you have the right, but not the obligation, to purchase a stock at a set price, called the strike price, any time before the option expires. When you buy a put option, you have the right but not the obligation to sell a stock at the strike price any time before the expiration date.
 
-The exchange where the future trades will determine if the contract is for [physical delivery](https://www.investopedia.com/terms/p/physicaldelivery.asp) or if it can be cash settled. A corporation may enter into a physical delivery contract to lock in—hedge—the price of a commodity they need for production. However, most futures contracts are from traders who speculate on the trade. These contracts are closed out or netted—the difference in the original trade and closing trade price—and are [cash settled](https://www.investopedia.com/terms/c/cashsettlement.asp).
+When individuals sell options, they effectively create a security that didn't exist before. This is known as writing an option, and it explains one of the main sources of options since neither the associated company nor the options exchange issues the options.
 
-###  Futures Speculation 
+When you write a call, you may be obligated to sell shares at the strike price any time before the expiration date. When you write a put, you may be obligated to buy shares at the strike price any time before expiration.
 
-A futures contract allows a trader to speculate on the direction of movement of a commodity's price.
+There are also two basic styles of options: American and European. An American-style option can be exercised at any time between the date of purchase and the expiration date. A European-style option can only be exercised on the expiration date.
 
-If a trader bought a futures contract and the price of the commodity rose and was trading above the original contract price at expiration, then they would have a profit. Before expiration, the buy trade—long position—would be offset or unwound with a sell trade for the same amount at the current price effectively closing the long position. The difference between the prices of the two contracts would be cash settled in the investor's brokerage account, and no physical product will change hands. However, the trader could also lose if the commodity's price was lower than the purchase price specified in the futures contract.
+Most exchange-traded options are American style, and all stock options are American style. Many index options are European style.
 
-Speculators can also take a short or sell speculative position if they predict the price of the underlying asset will fall. If the price does decline, the trader will take an offsetting position to close the contract. Again, the net difference would be settled at the expiration of the contract. An investor would realize a gain if the underlying asset's price was below the contract price and a loss if the current price was above the contract price.
 
-It's important to note that trading on margin allows for a much larger position than the amount held by the brokerage account. As a result, margin investing can amplify gains, but it can also magnify losses. Imagine a trader who has a $5,000 broker account balance and is in a trade for a $50,000 position in crude oil. Should the price of oil move against their trade, they can incur losses that far exceed the account's $5,000 initial margin amount. In this case, the broker would make a [margin call](https://www.investopedia.com/terms/m/margincall.asp) requiring additional funds be deposited to cover the market losses.
+##  Option Pricing 
 
-###  Futures Hedging 
+The price of an option is called its premium. The buyer of an option can't lose more than the initial premium paid for the contract, no matter what happens to the underlying security. So, the risk to the buyer is never more than the amount paid for the option. The profit potential, on the other hand, is theoretically unlimited.
 
-Futures can be used to [hedge](https://www.investopedia.com/terms/h/hedge.asp) the price movement of the underlying asset. Here, the goal is to prevent losses from potentially unfavorable price changes rather than to speculate. Many companies that enter hedges are using—or in many cases producing—the underlying asset.
+In return for the premium received from the buyer, the seller of an option assumes the risk of having to deliver (if a call option) or taking delivery (if a put option) of the shares of the stock. Unless that option is covered by another option or a position in the underlying stock, the seller's loss can be open-ended, meaning the seller can lose much more than the original premium received.
 
-For example, a corn farmer can use futures to lock in a specific price for selling their corn crop. By doing so, they reduce their risk and guarantee they will receive the fixed price. If the price of corn decreased, the company would have a gain on the hedge to offset losses from selling the corn at the market. With such a gain and loss offsetting each other, the hedging effectively locks in an acceptable market price.
+When the strike price of a call option is above the current price of the stock, the call is out of the money. When the strike price is below the stock's price, it's considered in the money. Put options are the exact opposite: They're considered out of the money when the strike price is below the stock price and in the money when the strike price is above the stock price.
 
-## Real World Example of Futures 
+Note that options are not available at just any price. Stock options are generally traded with strike prices in intervals of $0.50 or $1, but can also be in intervals of $2.50 and $5 for higher-priced stocks. Also, only strike prices within a reasonable range around the current stock price are generally traded. Far in- or out-of-the-money options might not be available.
 
-Let's say a trader wants to speculate on the price of crude oil by entering into a futures contract in May with the expectation that the price will be higher by years-end. The December crude oil futures contract is trading at $50 and the trader locks in the contract.
 
-Since oil is traded in increments of 1,000 barrels, the investor now has a position worth $50,000 of crude oil (1,000 x $50 = $50,000). However, the trader will only need to pay a fraction of that amount up front—the initial margin that they deposit with the broker. 
+##  Expiration Dates 
 
-From May to December, the price of oil fluctuates as does the value of the futures contract. If oil's price gets too volatile, the broker may ask for additional funds to be deposited into the margin account—a maintenance margin.
+All stock options expire on a certain date, called the expiration date. For normal listed options, this can be up to nine months from the date the options are first listed for trading. Longer-term option contracts, called long-term equity anticipation securities ([LEAPS](https://www.investopedia.com/terms/l/leaps.asp)), are also available on many stocks. These can have expiration dates up to three years from the listing date.
 
-In December, the end date of the contract is approaching, which is on the third Friday of the month. The price of crude oil has risen to $65, and the trader sells the original contract to exit the position. The net difference is cash settled, and they earn $15,000, less any fees and commissions from the broker ($65 - $50 = $15 x 1000 = $15,000).
+Options expire at market close on Friday, unless it falls on a market holiday, in which case expiration is moved back one business day. Monthly options expire on the third Friday of the expiration month, while weekly options expire on each of the other Fridays in a month.
 
-However, if the price oil had fallen to $40 instead, the investor would have lost $10,000 ($40 - $50 = negative $10 x 1000 = negative $10,000.
+Unlike shares of stock, which have a three-day settlement period, options settle the next day. In order to settle on the expiration date, you have to exercise or trade the option by the end of the day on Friday.
