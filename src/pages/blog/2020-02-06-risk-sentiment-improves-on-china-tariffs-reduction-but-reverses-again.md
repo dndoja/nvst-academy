@@ -14,6 +14,7 @@ featuredpost: true
 featuredimage: /img/china-wuhan-coronavirus-maps-promo-articleLarge-v14.png
 tags:
   - signals
+  - forex
 ---
 The sentiment has been pretty negative in financial markets in the last several weeks, due to [coronavirus outbrea](https://www.nytimes.com/2020/02/06/world/asia/coronavirus-china.html)k, hurting risk assets such as commodity Dollars and helping safe havens such as Gold climb higher. But, the sentiment [improved yesterday](https://www.theguardian.com/business/live/2020/feb/05/companies-count-mounting-costs-coronavirus-outbreak-sterling-ftse-brexit-uk-economy-services-pmibusiness-live), after rumours that a cure might be found soon. But, the cure is not here yet. Although, comments from China officials about tariffs reduction for US imports on China helped improve the sentiment further today.
 
