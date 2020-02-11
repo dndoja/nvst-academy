@@ -1,68 +1,53 @@
 ---
 templateKey: blog-post
-title: 'Coin overview: VeChain'
-date: 2020-02-11T12:26:24.811Z
+title: 'Coin overview: Ripple'
+date: 2019-06-12T11:26:24.811Z
 description: >-
-  VeChain is a blockchain platform designed to enhance supply chain management
-  and business processes. Its goal is to streamline these processes and
-  information flow for complex supply chains through the use of distributed
-  ledger technology (DLT). The Vechain platform has two tokens: VeChain Token
-  (VET) and VeChainThor Energy (VTHO). The former is used to transfer value
-  across VeChain’s network, and the latter is used as energy or gas to power
-  transactions. 
+  Ripple is a technology that acts as both a cryptocurrency and a digital
+  payment network for financial transactions. It was first released in 2012 and
+  was co-founded by Chris Larsen and Jed McCaleb. The coin for the
+  cryptocurrency is premined and labeled XRP.
 featuredpost: true
-featuredimage: /img/vechain.png
+featuredimage: /img/ripple.jpg
 tags:
   - crypto
 ---
+## Understanding Ripple 
+
+Ripple is more known for its [digital payment](https://www.investopedia.com/terms/d/digital-transaction.asp) protocol than its cryptocurrency, XRP. Ripple operates on an [open-source](https://www.investopedia.com/terms/o/open-source.asp) and peer-to-peer decentralized platform that allows for a seamless transfer of money in any form, whether USD, Yen, litecoin, or bitcoin.
+
+To understand how the system works, consider a money transfer structure where the two parties on either end of the transaction use their preferred middlemen to receive the money.
+
+Lawrence needs to send $100 to David who lives in a different city. He gives his local agent, Kate, the money to send to David with a password that David is required to answer correctly to receive the funds. Kate alerts David’s agent, Rose, of the transaction details – recipient, funds to be reimbursed, and password. If David gives Rose the right password, Rose gives him $100. However, the money comes from Rose’s account which means that Kate would owe Rose $100. Rose can either record a journal of all Kate’s debt or [IOUs](https://www.investopedia.com/terms/i/iou.asp) which Kate would pay on an agreed day, or make counter transactions which would balance the debt. For example, if Rose was also Martin’s agent and Martin needed to transfer $100 to Itios whose agent is Kate, this would balance out the $100 owed to Rose, since Itios will be paid from Kate’s account.
+
+Although the Ripple network is a little more complex than this example, the example demonstrates the basics of how the Ripple system works. From the example above, one can see that trust is required to initiate a transaction – trust between Lawrence and Kate, Kate and Rose, and David and Rose. Ripple uses a medium known as Gateway that serves as the link in the trust chain between two parties wanting to make a transaction. Gateway acts as the [credit intermediary](https://www.investopedia.com/terms/f/financialintermediary.asp) that receives and sends currencies to public addresses over the Ripple network. Anyone or any business can register and open a gateway which authorizes the registrant to act as the middleman for exchanging currencies, maintaining [liquidity](https://www.investopedia.com/terms/l/liquidity.asp), and transferring payments on the network.
+
 ### Key Takeaways 
 
-* _VeChain is a blockchain platform for business processes, such as supply chain and product lifecycle management, that aims to provide a 360-degree view of an organization by disintermediating information from data silos._ 
-* _In the future, it plans to become a platform for ICOs and for conducting transactions between Internet of Things (IoT) devices._ 
-* _VeChain has two tokens – VeChain token (VET) and VeChain Thor Energy (VTHO). The former is used to carry value from smart contracts on its blockchain while the latter is the underlying energy or gas used to power transactions._ 
+* Ripple is a technology mostly known for its digital payment network and protocol, however, it also has its own cryptocurrency, XRP.
+* Ripple's main process is a payment settlement asset exchange and remittance system that is similar to the [SWIFT](https://www.investopedia.com/terms/s/swift.asp) system for international money and security transfers that is used by banks and financial middlemen.
+* Rather than use blockchain mining, Ripple uses a consensus mechanism through a group of servers to confirm transactions.
+* Ripple transactions use less energy than Bitcoin, are confirmed in seconds and cost very little, [versus Bitcoin transactions](https://www.investopedia.com/tech/whats-difference-between-bitcoin-and-ripple/) which use more energy, take longer to confirm and include high transaction costs. 
 
-##  Understanding VeChain 
+##  Ripple's Digital Currency XRP 
 
-VeChain’s white paper states that its goal is “to build a trust-free and distributed business ecosystem platform to enable transparent information flow, efficient collaboration, and high-speed value transfers” in business processes.
+The digital currency, XRP, acts as a bridge currency to other currencies. It does not discriminate between one [fiat](https://www.investopedia.com/terms/f/fiatmoney.asp)/cryptocurrency and another, and thus, makes it easy for any currency to be exchanged for another. Each currency on the ecosystem has its own gateway e.g. CADBluzelle, BTCbitstamp, and USDsnapswap. If David wanted bitcoins as payment for the services rendered to Lawrence, Lawrence does not necessarily have to have bitcoins. He can send the payment to his gateway in Canadian dollars (CAD), and David can receive bitcoins from his gateway. One gateway is not needed to initiate a complete transaction, multiple gateways can be used, forming a chain of trust rippling across the users.
 
-Supply chain data for business processes are currently compartmentalized in silos among multiple stakeholders. This affects information flow, which is again divided among [stakeholders](https://www.investopedia.com/articles/financial-theory/11/upside-downside-of-ipos.asp).
+Holding balances with a gateway exposes the user to [counterparty risk](https://www.investopedia.com/terms/c/counterpartyrisk.asp) which is also a risk that is apparent in the traditional banking system. If the gateway does not honor its IOU or [liability](https://www.investopedia.com/terms/l/liability.asp), the user could lose the value of his money held at that gateway. Users that don’t trust a gateway, can, therefore, transact with a trusted gateway that in turn deals with the 'untrusted' gateway. This way the IOU will be with the trusted or [creditworthy](https://www.investopedia.com/terms/c/credit-worthiness.asp)-certified gateway. Counterparty risk does not apply to bitcoins and most other altcoins since a user’s bitcoin is not another user’s IOU or liability.
 
-According to VeChain’s white paper, [blockchain technology](https://www.investopedia.com/articles/investing/082914/basics-buying-and-investing-bitcoin.asp) can break “asymmetric information problem and allow ownership of data to return to and empower its owner.” The VeChain platform claims to provide a 360-degree view of necessary information linked to a product and its business processes – such as storage, transportation, and supply – to authorized stakeholders and create greater market transparency.
 
-For example, the platform can be used to track quality, authenticity, storage temperature, transportation medium, and last-mile delivery of a medicine pack or an alcohol bottle right from the manufacturing facility through to the final delivery to the end customer.
+##  How Ripple Works 
 
-To accomplish this goal, VeChain uses smart chips or Radio Frequency Identification (RFID) tags and sensors which broadcast key information onto the blockchain network that can be accessed in real-time by authorized stakeholders. The application of sensors means that all parameters related to the product can be constantly monitored and problems, if any, can be communicated back to the relevant stakeholders. Manufacturers and customers are informed if a drug packet is stored outside a prescribed temperature range, allowing for service improvements and better quality control.  
+The Ripple network does not run with a [proof-of-work](https://www.investopedia.com/terms/p/proof-work.asp) system like bitcoin or a [proof-of-stake](https://www.investopedia.com/terms/p/proof-stake-pos.asp) system like Nxt. Instead, transactions rely on a consensus protocol in order to validate account balances and transactions on the system. The consensus works to improve the integrity of the system by preventing double-spending. A Ripple user that initiates a transaction with multiple gateways but craftily sends the same $100 to the gateway systems will have all but the first transaction deleted. Individual distributed nodes decide by consensus which transaction was made first by taking a poll to determine the majority vote. The confirmations are instant and take roughly 5 seconds. Since there’s no central authority that decides who can set up a node and confirm transactions, the Ripple platform is described as decentralized.
 
-In another example, the VeChain platform can enable automobile owners to own their data and use it to negotiate better terms and policies with their insurance companies.
+Ripple keeps track of all IOUs in a given currency for any user or gateway. IOU credits and transaction flows that occur between Ripple [wallets](https://www.investopedia.com/terms/d/digital-wallet.asp) are publicly available on the Ripple consensus ledger. But even though financial transaction history is publicly recorded and made available on the blockchain, the data is not linked to the ID or account of any individual or business. However, the public record of all dealings, make the information susceptible to [de-anonymization](https://www.investopedia.com/terms/d/deanonymization.asp) measures.
 
-###  History of VeChain 
+### 
 
-VeChain was founded in 2015 by Sunny Lu, former CIO of Louis Vuitton China. It started as a subsidiary of Bitse, one of China’s largest blockchain companies. VeChain is among the few blockchains that already has a substantial customer base among established companies. Initially, the VEN token functioned on the Ethereum [blockchain](https://www.investopedia.com/articles/personal-finance/091316/top-3-books-learn-about-blockchain.asp). VeChain transitioned onto its own blockchain and rebranded itself in 2018. As part of the rebrand, the VEN blockchain became the VeChainThor (VET) blockchain in 2018.
+The Ripple payment system is increasingly being used by banks, versus Bitcoin, which is used primarily by individuals and organizations as a digital currency. 
 
-Goals for the VeChain blockchain platform are outlined in its white paper. The initial target is to disrupt the supply chain industry by making data actionable and transparent. In the future, its blockchain plans to have dApps and initial coin offerings (ICOs) on VeChain and Internet of Things (IoT) platform.
+##  Special Considerations 
 
-To that end, VeChain has inked [strategic partnerships](https://vechaininsider.com/partnerships/a-complete-list-of-vechain-partnerships/) over the years with several companies in order to help achieve this goal. Among these, the most important one is with accounting firm PricewaterhouseCoopers (PwC), which is also incubating VeChain. The blockchain company has also partnered with Chinese firm Jiangsu Electronics to develop custom RFID chips for use on its platform and car company Renault for its manufacturing operations. VeChain is also the government [technology partner for](https://cdn.vechain.com/vechain_national_government_partnership_guian_release.pdf) Gui’an, an economic development zone for the Central Government.
+Ripple improves on some of the drawbacks attributed to traditional banks. Transactions are settled within seconds on the Ripple network even though the platform handles millions of transactions frequently. This is unlike banks which could take days or weeks to complete a [wire transfer](https://www.investopedia.com/terms/w/wiretransfer.asp). The fee to conduct transactions on Ripple is also minimal, with the minimum transaction cost required for a standard transaction set at 0.00001 XRP, compared to the large fees charged by banks for conducting cross-border payments.
 
-###  VeChain Blockchain Platform 
-
-The VeChainThor blockchain platform is a public blockchain intended for “mass business adoption.” It has two tokens: VET and VTHO. VET is the VeChain token that is used to carry value or “smart money” from smart contracts. In other words, transactions on decentralized applications occurring on VeChain’s blockchain will use VET. It is available for investing by the general public.
-
-The VTHO token stands for VeChainThor Energy (VTHO) and is also known as VeThor Energy. It is used to power transactions on VeChain and is equal to the cost of conducting transactions on its blockchain.
-
-The concept is similar to that of Ethereum’s ether and NEO’s GAS in that developers need to budget for a certain number of underlying tokens (which are not exposed to the public) in order to conduct transactions for their decentralized applications. Per VeChain’s white paper, the two-token system was devised for effective governance and to have a predictable economic model for decentralized applications developers.
-
-In its current form, [Ethereum](https://www.investopedia.com/terms/e/ethereum.asp) lacks such a model because the price of ether, its native gas token, is volatile. As such, developers have to estimate the amount of ether required for a transaction. The transaction fails if their estimate turns out to be incorrect. VeChain’s white paper outlines several technical enhancements that its platform has made to overcome this problem.
-
-For example, the VET blockchain allows [Proof of Work](https://www.investopedia.com/terms/p/proof-work.asp) to be conducted for every transaction. This means that the people conducting a transaction can mine more VTHO if their initial estimate was wrong. 
-
-###  Governance Protocol 
-
-The VeChainThor blockchain uses Proof of Authority as a consensus protocol. Per this protocol, votes are disbursed based on VET holdings and disclosure. VET holders without KYC and with 1 million tokens in their account are assigned 20% of all votes while VET holders with KYC and the same amount in their accounts are responsible for 30%.
-
-There are 101 Masternodes responsible for reaching consensus on transactions in VeChain’s blockchain. This system is different from bitcoin, which requires all nodes to vote on a transaction before reaching consensus.
-
-Anonymous nodes are not allowed, and disclosure of identity is an essential pre-requisite to becoming an Authority Masternode. According to VeChain’s white paper, this system uses less power and does not require a minimum number of validators to reach consensus. 
-
-The other type of masternodes in VeChain is economic masternodes. They do not produce blocks or ledger records. The white paper states that they are used as a check on power. This is done by allocating a certain number of votes to each economic masternode based on their VET holdings. Each 10,000 VET held by an economic masternode gets it a single vote.
-
-The system of Masternodes centralizes voting rights in a decentralized system. But the founders of VeChain have said that their aim in designing this protocol is to achieve a balance between centralization and decentralization.
+The token ticker for Ripple is XRP. As of August 2019, Ripple was the third-largest cryptocurrency by [market cap](https://www.investopedia.com/terms/m/marketcapitalization.asp) of $13.37 billion, following Bitcoin (BTC) at $205.03 billion, and [Ethereum](https://www.investopedia.com/terms/e/ethereum.asp) (ETH) at $24.18 billion.
