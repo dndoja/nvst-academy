@@ -11,6 +11,7 @@ featuredpost: true
 featuredimage: /img/gbp-usd.jpg
 tags:
   - signals
+  - forex
 ---
 ![](https://fxlmwpmedia.s3.amazonaws.com/wp-content/uploads/2020/02/11060623/GBPUSD-11-02-2020-852x485.png)
 
