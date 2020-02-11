@@ -50,7 +50,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="fullscreen-container">
             <div style={{display:'flex',alignItems:'center',flexDirection:'column'}}>
-              <p className={"title-primary"} style={{marginBottom:'5vh', textAlign:'center'}}>Get your free courses and financial advisory!</p>
+              <p className={"title-primary"} style={{marginBottom:'5vh', textAlign:'center'}}>Get your free financial advisory!</p>
             <div className="content is-centered">
               <form
                 name="contact"
