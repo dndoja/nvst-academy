@@ -8,7 +8,7 @@ description: >-
   time to understand the terminology and concepts involved with options before
   trading them.
 featuredpost: true
-featuredimage: /img/futures.jpg
+featuredimage: /img/options-trading-810x456.jpg
 tags:
   - basics
 ---
