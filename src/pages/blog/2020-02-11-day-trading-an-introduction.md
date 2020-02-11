@@ -1,123 +1,92 @@
 ---
 templateKey: blog-post
-title: 'Day Trading: An Introduction'
-date: 2019-01-16T11:48:17.484Z
+title: Risk Management Techniques for Active Traders
+date: 2019-01-17T11:48:17.484Z
 description: >-
-  There was once a time when the only people who were able to trade actively in
-  the stock market were those working for large financial institutions,
-  brokerages, and trading houses. But, with the rise of the internet and online
-  trading houses, brokers have made it easier for the average individual
-  investor to get in on the game.
+  Risk management helps cut down losses. It can also help protect a trader's
+  account from losing all of his or her money. The risk occurs when the trader
+  suffers a loss. If it can be managed it, the trader can open him or herself up
+  to making money in the market.
 featuredpost: true
 featuredimage: /img/day_trading.png
 tags:
   - basics
 ---
-Day trading can turn out to be a very lucrative career, as long as you do it properly. But it can also be a little challenging for novices—especially for those who aren't fully prepared with a well-planned strategy. Even the most seasoned day traders can hit rough patches and experience losses. So, what exactly is day trading and how does it work?
+It is an essential but often overlooked prerequisite to successful active [trading](https://www.investopedia.com/options-basics-tutorial-4583012). After all, a trader who has generated substantial profits can lose it all in just one or two bad trades without a proper risk management strategy. So how do you develop the best techniques to curb the risks of the market?
+
+This article will discuss some simple strategies that can be used to protect your trading profits.
 
 ### Key Takeaways 
 
-* Day traders are active traders who execute intraday strategies to profit off price changes for a given asset.
-* Day trading employs a wide variety of techniques and strategies to capitalize on perceived market inefficiencies.
-* Day trading is often characterized by technical analysis and requires a high degree of self-discipline and objectivity. 
+* Trading can be exciting and even profitable if you are able to stay focused, do due diligence, and keep emotions at bay.
+* Still, the best traders need to incorporate risk management practices to prevent losses from getting out of control.
+* Having a strategic and objective approach to cutting losses through stop orders, profit taking, and protective puts is a smart way to stay in the game.
 
-##  The Basics of Day Trading 
+##  Planning Your Trades 
 
-Day trading is defined as the purchase and sale of a security within a single trading day. It can occur in any marketplace but is most common in the foreign exchange (forex) and stock markets. Day traders are typically well-educated and well-funded. They use high amounts of [leverage](https://www.investopedia.com/terms/l/leverage.asp) and short-term trading strategies to capitalize on small price movements in highly liquid stocks or currencies.
+As Chinese military general Sun Tzu's famously said: "Every battle is won before it is fought." This phrase implies that planning and strategy—not the battles—win wars. Similarly, successful traders commonly quote the phrase: "Plan the trade and trade the plan." Just like in war, planning ahead can often mean the difference between success and failure.
 
-Day traders are attuned to events that cause short-term market moves. Trading the news is a popular technique. Scheduled announcements such as economic statistics, corporate earnings or interest rates are subject to market expectations and [market psychology](https://www.investopedia.com/terms/m/marketpsychology.asp). Markets react when those expectations are not met or are exceeded, usually with sudden, significant moves, which can benefit day traders.
+First, make sure your broker is right for frequent trading. Some brokers cater to customers who trade infrequently. They charge high commissions and don't offer the right analytical tools for active traders.
 
-Day traders use numerous intraday strategies. These strategies include:
+[Stop-loss](https://www.investopedia.com/articles/stocks/09/use-stop-loss.asp) (S/L) and [take-profit](https://www.investopedia.com/terms/t/take-profitorder.asp) (T/P) points represent two key ways in which traders can plan ahead when trading. Successful traders know what price they are willing to pay and at what price they are willing to sell. They can then measure the resulting returns against the probability of the stock hitting their goals. If the adjusted return is high enough, they execute the trade.
 
-* **Scalping**, which attempts to make numerous small profits on small prices changes throughout the day
-* **Range trading**, which primarily uses support and resistance levels to determine their buy and sell decisions
-* **News-based trading**, which typically seizes trading opportunities from the heightened volatility around news events
-* **High-frequency trading (HFT)** strategies that use sophisticated [algorithms](https://www.investopedia.com/terms/a/algorithm.asp) to exploit small or short-term market inefficiencies
+Conversely, unsuccessful [traders](https://www.investopedia.com/terms/t/trader.asp) often enter a trade without having any idea of the points at which they will sell at a profit or a loss. Like gamblers on a lucky—or unlucky streak—emotions begin to take over and dictate their trades. Losses often provoke people to hold on and hope to make their money back, while profits can entice traders to imprudently hold on for even more gains.
 
 
-##  A Controversial Practice 
+##  Consider the One-Percent Rule 
 
-The profit potential of day trading is perhaps one of the most debated and misunderstood topics on Wall Street. Internet day trading scams have lured amateurs by promising enormous returns in a short period. The idea that this kind of trading is a get-rich-quick scheme persists. Some people day trade without sufficient knowledge. But there are day traders who make a successful living despite—or perhaps because of—the risks.
+A lot of day traders follow what's called the one-percent rule. Basically, this rule of thumb suggests that you should never put more than 1% of your capital or your trading account into a single trade. So if you have $10,000 in your trading account, your position in any given instrument shouldn't be more than $100.
 
-Many professional money managers and financial advisors shy away from day trading arguing that, in most cases, the reward does not justify the risk. Conversely, those who do day trade insist there is profit to be made. Day trading profitably is possible, but the success rate is inherently lower because of the complexity and necessary risk of day trading in conjunction with the related scams. Moreover, economists and financial practitioners alike argue that over long time periods, active trading strategies tend to underperform a more basic passive index strategy, especially after fees and taxes are taken into account.
-
-Day trading is not for everyone and involves significant risks. Moreover, it requires an in-depth understanding of how the markets work and various strategies for profiting in the short term. While we remember the success stories of those who struck it rich as a day trader, remember that most do not—many will fizzle out and many will just barely stay afloat. Furthermore, don't underestimate the role that luck and good timing play—while skill is certainly an element, a rout of bad luck can sink even the most experienced day trader.
-
-## Characteristics of a Day Trader 
-
-Professional day traders—those who trade for a living rather than as a hobby—are typically well-established in the field. They usually have in-depth knowledge of the marketplace, too. Here are some of the prerequisites required to be a successful day trader:
-
-###  Knowledge and experience in the marketplace 
-
-Individuals who attempt to day trade without an understanding of market fundamentals often lose money. Technical analysis and chart reading is a good skill for a day trader to have, but without a more in-depth understanding of the market you're in and the assets that exist in that market, charts may be deceiving. Do your due diligence and understand the particular ins and outs of the products you trade.
-
-###  Sufficient capital 
-
-Day traders use only [risk capital](https://www.investopedia.com/terms/r/riskcapital.asp) which they can afford to lose. Not only does this protect them from financial ruin, but it also helps eliminate emotion from their trading. A large amount of capital is often necessary to capitalize effectively on intraday price movements. Having access to a margin account is also key, since volatile swings can incur margin calls on short notice.
-
-###  Strategy 
-
-A trader needs an edge over the rest of the market. There are several different strategies day traders use including [swing trading](https://www.investopedia.com/terms/s/swingtrading.asp), [arbitrage](https://www.investopedia.com/terms/a/arbitrage.asp), and trading news. These strategies are refined until they produce consistent profits and effectively limit losses.
+This strategy is common for traders who have accounts of less than $100,000—some even go as high as 2% if they can afford it. Many traders whose accounts have higher balances may choose to go with a lower percentage. That's because as the size of your account increases, so too does the position. The best way to keep your losses in check is to keep the rule below 2%—any more and you'd be risking a substantial amount of your trading account.
 
 
-    Strategy Breakdown  
-    Type                 | Risk   | Reward
-    -------------------- | ------ | ------
-    Swing Trading        | High   | High  
-    Arbitrage            | Low    | Medium
-    Trading News         | Medium | Medium
-    Mergers/Acquisitions | Medium | High  
+##  Setting Stop-Loss and Take-Profit Points 
 
-###  Discipline 
+A stop-loss point is the price at which a trader will sell a stock and take a loss on the trade. This often happens when a trade does not pan out the way a trader hoped. The points are designed to prevent the "it will come back" mentality and limit losses before they escalate. For example, if a stock breaks below a key support level, traders often sell as soon as possible.
 
-A profitable strategy is useless without discipline. Many day traders end up losing a lot of money because they fail to make trades that meet their own criteria. As they say, "Plan the trade and trade the plan." Success is impossible without discipline.
-
-To profit, day traders rely heavily on [volatility](https://www.investopedia.com/terms/v/volatility.asp) in the market. A stock may be attractive to a day trader if it moves a lot during the day. That could happen because of a number of different things including an earnings report, investor sentiment, or even general economic or company news.
-
-Day traders also like stocks that are heavily liquid because that gives them the chance to change their position without altering the price of the stock. If a stock price moves higher, traders may take a buy position. If the price moves down, a trader may decide to [short-sell](https://www.investopedia.com/terms/s/shortselling.asp) so he can profit when it falls.
-
-Regardless of what technique a day trader uses, they're usually looking to trade a stock that moves... a lot.
+On the other hand, a [take-profit point](https://www.investopedia.com/terms/t/take-profitorder.asp) is the price at which a trader will sell a stock and take a profit on the trade. This is when the additional upside is limited given the risks. For example, if a stock is approaching a key resistance level after a large move upward, traders may want to sell before a period of consolidation takes place.
 
 
-##  Day Trading for a Living 
+##  How to More Effectively Set Stop-Loss Points 
 
-There are two primary divisions of professional day traders: those who work alone and/or those who work for a larger institution. Most day traders who trade for a living work for a large institution. These traders have an advantage because they have access to a direct line, a trading desk, large amounts of capital and leverage, expensive analytical software, and much more. These traders are typically looking for easy profits that can be made from arbitrage opportunities and news events, and these resources allow them to capitalize on these less risky day trades before individual traders can react.
+Setting stop-loss and take-profit points is often done using technical analysis, but fundamental analysis can also play a key role in timing. For example, if a trader is holding a stock ahead of earnings as excitement builds, he or she may want to sell before the news hits the market if expectations have become too high, regardless of whether the take-profit price has been hit.
 
-Individual traders often manage other people's money or simply trade with their own. Few of them have access to a trading desk, but they often have strong ties to a brokerage (due to the large amounts they spend on commissions) and access to other resources. However, the limited scope of these resources prevents them from competing directly with institutional day traders. Instead, they are forced to take more risks. Individual traders typically day trade using [technical analysis](https://www.investopedia.com/terms/t/technicalanalysis.asp) and swing trades—combined with some leverage—to generate adequate profits on such small price movements in highly liquid stocks.
+Moving averages represent the most popular way to set these points, as they are easy to calculate and widely tracked by the market. Key moving averages include the 5-, 9-, 20-, 50-, 100- and 200-day averages. These are best set by applying them to a stock's chart and determining whether the stock price has reacted to them in the past as either a support or resistance level.
 
-Day trading demands access to some of the most complex financial services and instruments in the marketplace. Day traders typically require:
+Another great way to place stop-loss or take-profit levels is on support or resistance trend lines. These can be drawn by connecting previous highs or lows that occurred on significant, above-average volume. Like with moving averages, the key is determining levels at which the price reacts to the trend lines and, of course, on high volume.
 
-###  Access to a trading desk 
+When setting these points, here are some key considerations:
 
-This is usually reserved for traders working for larger institutions or those who manage large amounts of money. The dealing desk provides these traders with instantaneous order executions, which are particularly important when sharp price movements occur. For example, when an acquisition is announced, day traders looking at [merger arbitrage](https://www.investopedia.com/terms/m/mergerarbitrage.asp) can place their orders before the rest of the market is able to take advantage of the price differential.
-
-###  Multiple news sources 
-
-News provides the majority of opportunities from which day traders capitalize, so it is imperative to be the first to know when something significant happens. The typical trading room contains access to the Dow Jones Newswire, constant coverage of CNBC and other news organizations, and software that constantly analyzes news sources for important stories.  
-
-###  Analytical software 
-
-Trading software is an expensive necessity for most day traders. Those who rely on technical indicators or swing trades rely more on software than news. This software may be characterized by the following:
-
-* **Automatic pattern recognition**: This means the trading program identifies technical indicators like [flags](https://www.investopedia.com/terms/f/flag.asp) and [channels](https://www.investopedia.com/terms/c/channel.asp), or more complex indicators such as [Elliott Wave](https://www.investopedia.com/terms/e/elliottwavetheory.asp) patterns.
-* **Genetic and neural applications**: These are programs that use [neural networks](https://www.investopedia.com/articles/trading/06/neuralnetworks.asp) and genetic algorithms to perfect trading systems to make more accurate predictions of future price movements.
-* **Broker integration**: Some of these applications even interface directly with the brokerage which allows for an instantaneous and even automatic execution of trades. This is helpful for eliminating emotion from trading and improving execution times.
-* **Backtesting**: This allows traders to look at how a certain strategy would have performed in the past in order to predict more accurately how it will perform in the future. Keep in mind that past performance is not always indicative of future results.
-
-Combined, these tools provide traders with an edge over the rest of the marketplace. It is easy to see why, without them, so many inexperienced traders lose money.
+* Use longer-term moving averages for more volatile stocks to reduce the chance that a meaningless price swing will trigger a stop-loss order to be executed.
+* Adjust the moving averages to match target price ranges. For example, longer targets should use larger moving averages to reduce the number of signals generated.
+* Stop losses should not be closer than 1.5-times the current high-to-low range (volatility), as it is too likely to get executed without reason.
+* Adjust the stop loss according to the market's volatility. If the stock price isn't moving too much, then the stop-loss points can be tightened.
+* Use known fundamental events such as earnings releases, as key time periods to be in or out of a trade as volatility and uncertainty can rise.
 
 
-##  Should You Start Day Trading? 
+##  Calculating Expected Return 
 
-As mentioned above, day trading as a career can be very difficult and quite a challenge. First, you need to come in with some knowledge of the trading world and have a good idea of your risk tolerance, capital, and goals.
+Setting stop-loss and take-profit points are also necessary to calculate the [expected return](https://www.investopedia.com/terms/e/expectedreturn.asp). The importance of this calculation cannot be overstated, as it forces traders to think through their trades and rationalize them. As well, it gives them a systematic way to compare various trades and select only the most profitable ones.
 
-* Day trading is also a career that requires a lot of time. If you want to perfect your strategies—after you've practiced, of course—and make money, you'll have to devote a lot of time to it. This isn't something you can do part-time or whenever you get the urge. You have to be fully invested in it.
-* If you do decide that the thrill of trading is right for you, remember to start small. [Focus on a few stocks](https://www.investopedia.com/day-trading/pick-stocks-intraday-trading/) rather than going into the market head-first and wearing yourself thin. Going all out will only complicate your trading strategy and can mean big losses.
-* Finally, stay cool and try to keep the emotion out of your trades. The more you can do that, the more you'll be able to stick to your plan. Keeping a level head allows you to maintain your focus while keeping you on the path you've selected to go down.
+This can be calculated using the following formula:
 
-If you follow these simple guidelines, you _may_ be headed for a good career in day trading.
+**[(Probability of Gain) x (Take Profit % Gain)] + [(Probability of Loss) x (Stop-Loss % Loss)]**
+
+The result of this calculation is an expected return for the active trader, who will then measure it against other opportunities to determine which stocks to trade. The probability of gain or loss can be calculated by using historical breakouts and breakdowns from the support or resistance levels—or for experienced traders, by making an educated guess.
+
+
+##  Diversify and Hedge 
+
+Making sure you make the most of your trading means never putting your eggs in one basket. If you put all your money in one stock or one instrument, you're setting yourself up for a big loss. So remember to [diversify](https://www.investopedia.com/terms/d/diversification.asp) your investments—across both industry sector as well as market capitalization and geographic region. Not only does this help you manage your risk, but it also opens you up to more opportunities.
+
+You may also find yourself a time when you need to [hedge](https://www.investopedia.com/terms/h/hedge.asp) your position. Consider a stock position when the results are due. You may consider taking the opposite position through options, which can help protect your position. When trading activity subsides, you can then unwind the hedge.
+
+
+##  Downside Put Options 
+
+If you are approved for options trading, buying a downside[ put option](https://www.investopedia.com/terms/p/putoption.asp), sometimes known as a protective put, can also be used as a hedge to stem losses from a trade that turns sour. A put option gives you the right, but not the obligation, to sell the underlying stock at a specified priced at or before the option expires. Therefore if you own XYZ stock from $100 and buy the 6-month $80 put for $1.00 per option in premium, then you will be effectively stopped out from any price drop below $79 ($80 strike minus the $1 premium paid).
 
 
 ##  The Bottom Line 
 
-Although day trading has become somewhat of a controversial phenomenon, it can be a viable way to earn profit. Day traders, both institutional and individual, play an important role in the marketplace by keeping the markets efficient and liquid. While popular among inexperienced traders, it should be left primarily to those with the skills and resources needed to succeed.
+Traders should always know when they plan to enter or exit a trade before they execute. By using stop losses effectively, a trader can minimize not only losses but also the number of times a trade is exited needlessly. In conclusion, make your battle plan ahead of time so you'll already know you've won the war. 
