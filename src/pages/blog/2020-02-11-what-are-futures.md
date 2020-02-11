@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: What are Futures
-date: 2020-02-11T12:00:04.061Z
+date: 2019-07-27T11:00:04.061Z
 description: >-
   Futures are derivative financial contracts that obligate the parties to
   transact an asset at a predetermined future date and price. Here, the buyer
